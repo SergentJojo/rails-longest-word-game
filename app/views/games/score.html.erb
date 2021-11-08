@@ -1,0 +1,6 @@
+<h1>hello</h1>
+<p>Results: <%= @score[:message] %></p>
+<p>Score: <%= @score[:score] %></p>
+<p>Total score: <%= session[:score] %></p>
+
+<%= link_to "Ask a new question bro", new_path, class: "btn btn-primary d-flex justify-content-center" %>
